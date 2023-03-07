@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 1440px;
+}
+.container{
+    width: 1046px * 100% / 1440px;
+    background-color: rgb(234, 234, 234);
+    margin: auto;
+}
+
+darkblue{
+    background: rgba(37, 43, 66, 1);
+
+}
+button{
+    border-radius: 37px;
+    border-style: none;
+    background-color: rgba(255, 123, 71, 1);
+color: white;
+    padding: 10px 36px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+/* or 200% */
+
+letter-spacing: 0.2px;
+}
+list{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.2px;
+}
+
+li{
+color: rgba(115, 115, 115, 1);
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+}
+h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+h2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+letter-spacing: 0.2px;
+}
+h3{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.1px;
+}
+h4{
+color: rgba(115, 115, 115, 1);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.2px;
+}
+h5{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+}
+h6{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+}
+p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+
+.center{
+    height: 100vh;
+    mmargin:auto
+    .maintext{
+
+width: 60%;
+        h3{
+            padding: 5% 0;
+        }
+    }
+
+    nav{
+        align-items: center;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        h3{
+
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            gap: 50px;
+            li{
+            
+            }
+        }
+
+
+    }
+}
+.maintext{
+    
+    text-align: center;
+    width: 70%;
+    h3{
+        margin: 6% 7%;
+    }
+}
+.greydivwapper{
+    max-width: 1440px;
+    background-color: rgb(137, 137, 137);
+    height: 100vh;
+}
+.industrydiv{
+    height: 100vh;
+    .industrytexts{
+        
+
+    }
+    .boxes{
+        display: flex;
+        .boxxs{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .box{
+                margin: 10%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 100%;
+                width: 90%;
+                .first{ 
+
+                    margin: 5% 0;
+                    gap: 15px;
+                    display: flex;
+                    align-items: center;
+                }
+                .paragraph{
+                    
+                }
+            }
+        }
+
+    }
+
+}
+.whoweare{
+text-align: center;
+    .we{
+        text-align: center;
+    }
+    margin: auto;
+    height: 100vh;
+    width: 60%;
+    text-align: center;
+    .imagewe{
+        background-image: url(images/row.png);
+        wwidth: auto;
+        height: 100vh;
+        background-repeat: no-repeat;
+        bbackground-image: cover;
+
+    }
+}
+.clients{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+    .threecolumn{
+        text-align: start;
+        display: flex;
+        gap: 20px;
+        .columns{
+            background-color: white;
+            border-radius: 2px;
+
+            padding: 3%;
+            width: 25%;
+            .nameimage{
+                display: flex;
+            }
+        }
+    }
+
+}
+.white{
+    background-color:white;
+
+}
+.meet{
+    margin-top: 50px;
+    text-align: center;
+    .column{
+        width: 100%;
+        gap:5%;
+        display: flex;
+        justify-content: space-between;
+        .percolumn{
+            border: 1px solid;
+            border-color: rgba(0, 0, 0, 0.119);
+            .personal{
+                width: 100%;
+            }
+            margin-top: 5%;
+            margin-bottom: 5%;
+            ppadding-top: 50px;
+            ppadding-bottom: 50px;
+        }
+    }
+}
+.backinput{
+    background-image: url(images/coverinput.png);
+}
