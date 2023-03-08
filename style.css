@@ -9,7 +9,7 @@
 
 .container {
   width: 72.6388888889%;
-  background-color: rgb(234, 234, 234);
+  bbackground-color: rgb(234, 234, 234);
   margin: auto;
 }
 
@@ -52,6 +52,7 @@ li {
 }
 
 h1 {
+  color: rgb(37, 43, 66);
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
@@ -61,6 +62,7 @@ h1 {
 }
 
 h2 {
+  color: rgb(37, 43, 66);
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -70,6 +72,7 @@ h2 {
 }
 
 h3 {
+  color: rgb(37, 43, 66);
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -79,6 +82,7 @@ h3 {
 }
 
 h4 {
+  ccolor: rgb(37, 43, 66);
   color: rgb(115, 115, 115);
   font-family: "Montserrat";
   font-style: normal;
@@ -89,6 +93,7 @@ h4 {
 }
 
 h5 {
+  color: rgb(37, 43, 66);
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -98,6 +103,7 @@ h5 {
 }
 
 h6 {
+  color: rgb(37, 43, 66);
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -107,6 +113,7 @@ h6 {
 }
 
 p {
+  color: rgb(37, 43, 66);
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -115,10 +122,34 @@ p {
   letter-spacing: 0.2px;
 }
 
+input {
+  font-family: "Montserrat";
+  border-color: rgb(98, 98, 98);
+  border-style: solid;
+  color: rgb(175, 175, 175);
+  border-color: rgb(98, 98, 98);
+  border-radius: 5px;
+  border: 1.5px solid rgb(218, 218, 218);
+  font-weight: 600;
+}
+
+textarea {
+  font-family: "Montserrat";
+  border-color: rgb(98, 98, 98);
+  border-style: solid;
+  color: rgb(37, 43, 66);
+  border-color: rgb(98, 98, 98);
+  border-radius: 5px;
+  border: 1.5px solid rgb(218, 218, 218);
+}
+
 .center {
   height: 100vh;
 }
 .center mmargin:auto .maintext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 60%;
 }
 .center mmargin:auto .maintext h3 {
@@ -138,6 +169,7 @@ p {
 .maintext {
   text-align: center;
   width: 70%;
+  margin: auto;
 }
 .maintext h3 {
   margin: 6% 7%;
@@ -247,7 +279,54 @@ p {
   height: 100vh;
   background-image: url(images/coverinput.png);
 }
+.backinput input {
+  padding: 10px 20px;
+  margin: 8px 8px;
+}
+.backinput .inputtext {
+  wwidth: 50%;
+}
+.backinput .inputtext .firstinput input {
+  wwidth: 30%;
+}
+.backinput .inputtext input {
+  width: 25%;
+}
+.backinput .inputtext .comment {
+  padding: 10px 20px;
+  margin: 8px 8px;
+}
 .backinput .comment {
-  width: 50%;
+  width: 57%;
   height: 150px;
+}
+.inputcont {
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 70px;
+}
+
+.appoint {
+  border-radius: 5px;
+}
+
+.container .consulting {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bluediv {
+  background-color: #252B42;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.bluediv .consultal {
+  padding: 30px;
+  border-bottom: red solid;
+  mmargin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.bluediv .consultal h3 {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
